@@ -1,3 +1,4 @@
+#qpeachy.github.io
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
@@ -103,7 +104,7 @@
 										</button>
 										<button class="btn btn-Danger btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="me-1" href="https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php/4678736-comment-fonctionne-une-architecture-mvc"></i>
-                                        Qu'est ce qu'un modèl MVC?
+                                        Qu'est ce qu'un modèle MVC?
 										</button>
 									</div>
                                 </div>
