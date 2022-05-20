@@ -1,11 +1,12 @@
 #qpeachy.github.io
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Portfolio</title>
+        <title>Agency - Start Bootstrap Theme</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -20,7 +21,6 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <p class="text-light">Pale Mathy</p>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -43,7 +43,7 @@
             </div>
         </header>
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <section class="page-section -light" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -57,7 +57,6 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Project</div>
-                                <div class="portfolio-caption-subheading text-muted">SLAM</div>
                             </div>
                         </div>
                     </div>
@@ -98,14 +97,12 @@
                                     <p>Le projet Museumvision à été créé avec Monsieur Buffet en développement web, sur la base du MVC(Modèle Vue Controleur)</p>
 									<p><strong>Objectif:</strong> Une directrice de musée veut un nouveau site internet pour pouvoir gerer plusieurs aspects --> créations de visites, gestions des différentes expositions et leur tarifs, jauge de visiteurs(suites au restrictions du Covid)</p>
 									<div>
-										<button class="btn btn-success btn-xl text-uppercase" data-bs-dismiss="modal" type="button" href="https://github.com/qpeachy/Monster_vision.git" >
-                                        <i class="me-1"></i>
-                                        Lien vers Museumvision
-										</button>
-										<button class="btn btn-Danger btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="me-1" href="https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php/4678736-comment-fonctionne-une-architecture-mvc"></i>
-                                        Qu'est ce qu'un modèle MVC?
-										</button>
+										<form action="https://github.com/qpeachy/Monster_vision.git" method="get" target="_blank">
+											<button class="btn btn-warning btn-xl text-uppercase" type="submit">Lien vers Museumvision</button>
+										</form>
+										<form action="https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php/4678736-comment-fonctionne-une-architecture-mvc" method="get" target="_blank">
+										<button class="btn btn-xl text-uppercase" type="submit">Qu'est ce qu'un modèle MVC?</button>
+										</form>
 									</div>
                                 </div>
                             </div>
@@ -124,3 +121,5 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
