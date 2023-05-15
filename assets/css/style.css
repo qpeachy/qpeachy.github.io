@@ -938,6 +938,7 @@ section .container {
   justify-content:center;
   text-align: center;
   height:fit-content;
+  margin: auto;
 }
 
 .portfolio-details .card-logo {
